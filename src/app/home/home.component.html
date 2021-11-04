@@ -1,0 +1,29 @@
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-light" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <div class="mb-md-5 mt-md-4 pb-0">
+              <h2 class="fw-bold mb-2 text-uppercase text-black">HOŞGELDİNİZ</h2>
+              <p class="text-black mb-5">Giriş Yapılan Kullanıcı {{userName}} </p>
+            </div>
+
+            <div class="pb-3">
+              <button class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" (click)="managerLogin()" >Yönetici Girişi</button>
+            </div>
+            <div class="pb-3">
+              <button class="btn btn-primary btn-lg btn-block" (click)="employeeLogin()">Çalışan Girişi</button>
+            </div>
+            <div class="pb-3">
+              <button class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" (click)="logout()" >Sayfadan Çıkış</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+"
